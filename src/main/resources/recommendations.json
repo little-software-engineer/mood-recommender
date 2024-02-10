@@ -1,0 +1,88 @@
+{
+  "Happy": {
+    "movie": [
+      "The Pursuit of Happiness", "La La Land", "The Lego Movie", "Sing Street", "Mamma Mia!", "Moana",
+      "Shrek", "Ferris Bueller's Day Off", "The Princess Bride", "Freaky Friday", "Toy Story", "Guardians of the Galaxy",
+      "Ferris Bueller's Day Off", "Pitch Perfect", "Up", "The Greatest Showman", "The Lion King", "Coco", "Finding Nemo"
+    ],
+    "song": [
+      "Happy - Pharrell Williams", "Uptown Funk - Mark Ronson ft. Bruno Mars", "Don't Worry, Be Happy - Bobby McFerrin",
+      "I Gotta Feeling - The Black Eyed Peas", "Can't Stop the Feeling! - Justin Timberlake", "Dancing Queen - ABBA",
+      "Walking on Sunshine - Katrina and the Waves", "I'm Yours - Jason Mraz", "Shut Up and Dance - Walk The Moon",
+      "Dynamite - BTS", "Can't Stop This Feeling - Justin Timberlake", "Happy Together - The Turtles",
+      "Sweet Caroline - Neil Diamond", "Dance Monkey - Tones and I", "What a Wonderful World - Louis Armstrong",
+      "Three Little Birds - Bob Marley", "All Star - Smash Mouth", "I Just Called to Say I Love You - Stevie Wonder",
+      "Here Comes the Sun - The Beatles", "September - Earth, Wind & Fire"
+    ],
+    "kdrama": [
+      "Crash Landing On You", "Itaewon Class", "My ID is Gangnam Beauty", "What's Wrong with Secretary Kim",
+      "Strong Woman Do Bong-soon", "Weightlifting Fairy Kim Bok-joo", "Hospital Playlist", "Vincenzo",
+      "It's Okay to Not Be Okay", "Descendants of the Sun", "Fight for My Way", "Moon Lovers: Scarlet Heart Ryeo",
+      "Goblin", "Reply 1988", "Her Private Life", "Romance is a Bonus Book", "Touch Your Heart", "Love Alarm",
+      "Mr. Sunshine", "When the Camellia Blooms"
+    ]
+  },
+  "Sad": {
+    "movie": [
+      "The Fault in Our Stars", "Schindler's List", "Atonement", "Requiem for a Dream", "Eternal Sunshine of the Spotless Mind",
+      "The Green Mile", "Forrest Gump", "The Boy in the Striped Pajamas", "The Lovely Bones", "The Pursuit of Happyness",
+      "Inside Out", "Manchester by the Sea", "A Star is Born", "Life is Beautiful", "Amour", "Blue Valentine", "Brooklyn",
+      "The Curious Case of Benjamin Button", "Titanic", "A Walk to Remember"
+    ],
+    "song": [
+      "Someone Like You - Adele", "Hurt - Johnny Cash", "Nothing Compares 2 U - Sinead O'Connor", "Creep - Radiohead",
+      "Back to Black - Amy Winehouse", "Yesterday - The Beatles", "The Night We Met - Lord Huron", "Skinny Love - Bon Iver",
+      "Tears in Heaven - Eric Clapton", "I'm So Lonesome I Could Cry - Hank Williams", "Everybody Hurts - R.E.M.",
+      "Say Something - A Great Big World & Christina Aguilera", "Yesterday - The Beatles", "He stopped loving her today - George Jones",
+      "The Night We Met - Lord Huron", "Someone You Loved - Lewis Capaldi", "Fix You - Coldplay", "Nothing Else Matters - Metallica",
+      "Un-break My Heart - Toni Braxton", "I Will Always Love You - Whitney Houston"
+    ],
+    "kdrama": [
+      "Autumn in My Heart", "Uncontrollably Fond", "Scarlet Heart: Ryeo", "Come and Hug Me", "Marriage Contract",
+      "Angel's Last Mission: Love", "Chocolate", "One Spring Night", "Something in the Rain", "Moon Embracing the Sun",
+      "Love Rain", "Scent of a Woman", "When My Love Blooms", "My Mister", "Misty", "On the Way to the Airport",
+      "The Smile Has Left Your Eyes", "Just Between Lovers", "The Light in Your Eyes", "Mother"
+    ]
+  },
+  "Excited": {
+    "movie": [
+      "The Avengers", "Mad Max: Fury Road", "Jurassic Park", "Inception", "The Dark Knight", "Interstellar",
+      "Avengers: Endgame", "Guardians of the Galaxy", "Pulp Fiction", "Fight Club", "The Matrix", "The Shawshank Redemption",
+      "The Wolf of Wall Street", "Gladiator", "The Lord of the Rings: The Fellowship of the Ring", "The Grand Budapest Hotel",
+      "Deadpool", "The Revenant", "Spider-Man: Into the Spider-Verse", "The Great Gatsby"
+    ],
+    "song": [
+      "Eye of the Tiger - Survivor", "Happy - Pharrell Williams", "Shut Up and Dance - Walk The Moon", "We Will Rock You - Queen",
+      "Can't Stop the Feeling! - Justin Timberlake", "I Gotta Feeling - The Black Eyed Peas", "Thunder - Imagine Dragons",
+      "Bohemian Rhapsody - Queen", "Uptown Funk - Mark Ronson ft. Bruno Mars", "Dance Monkey - Tones and I",
+      "Take on Me - a-ha", "Dancing Queen - ABBA", "Party in the USA - Miley Cyrus", "Livin' on a Prayer - Bon Jovi",
+      "Shape of You - Ed Sheeran", "Dynamite - BTS", "All Star - Smash Mouth", "Believer - Imagine Dragons", "Can't Stop This Feeling - Justin Timberlake",
+      "Billie Jean - Michael Jackson"
+    ],
+    "kdrama": [
+      "Vincenzo", "Healer", "Kill Me, Heal Me", "W - Two Worlds", "Signal", "City Hunter", "The King: Eternal Monarch", "Doctor Stranger",
+      "Legend of the Blue Sea", "Reply 1997", "Misaeng", "While You Were Sleeping", "My Love from the Star", "Voice", "Signal", "Signal",
+      "Descendants of the Sun", "Criminal Minds", "Kingdom", "Crash Landing On You"
+    ]
+  },
+  "Calm": {
+    "movie": [
+      "The Secret Life of Walter Mitty", "Amélie", "Whisper of the Heart", "Spirited Away", "My Neighbor Totoro",
+      "Into the Wild", "The Grand Budapest Hotel", "A Beautiful Mind", "The Shape of Water", "The Red Turtle",
+      "Eternal Sunshine of the Spotless Mind", "The Wind Rises", "Her", "The Green Mile", "The Tree of Life", "Lost in Translation",
+      "A Ghost Story", "Atonement", "Midnight in Paris", "Moonlight"
+    ],
+    "song": [
+      "Clair de Lune - Claude Debussy", "Weightless - Marconi Union", "Spiegel im Spiegel - Arvo Pärt", "Adagio for Strings - Samuel Barber",
+      "Gymnopédie No.1 - Erik Satie", "Clair de Lune - Debussy", "Air on the G String - J.S. Bach", "Pavane - Gabriel Fauré",
+      "Nocturne in E-flat Major, Op. 9, No. 2 - Chopin", "Reverie - Debussy", "Canon in D Major - Pachelbel", "Ave Maria - Schubert",
+      "Cavatina - Stanley Myers", "Ludovico Einaudi - Nuvole Bianche", "Gymnopédie No.3 - Erik Satie", "Rivers Flows In You - Yiruma",
+      "Morning Mood - Edvard Grieg", "Piano Sonata No. 14 'Moonlight' - Beethoven", "Orinoco Flow - Enya", "Meditation from Thais - Massenet"
+    ],
+    "kdrama": [
+      "When the Weather is Fine", "Hospital Playlist", "Goblin", "Mr. Sunshine", "Reply 1988", "The Light in Your Eyes", "Chocolate", "Prison Playbook",
+      "One Spring Night", "My Mister", "Because This Is My First Life", "When My Love Blooms", "Romance is a Bonus Book", "A Piece of Your Mind",
+      "Melo is My Nature", "Hyena", "It's Okay to Not Be Okay", "Do Do Sol Sol La La Sol", "When the Camellia Blooms", "My ID is Gangnam Beauty"
+    ]
+  }
+}

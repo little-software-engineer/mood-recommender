@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+    <title>Mood Recommender</title>
+</head>
+<body>
+<h2>Enter your mood:</h2>
+<form action="/recommend" method="post">
+    <input type="text" name="mood" placeholder="Happy, Sad, Excited, Calm" required>
+    <button type="submit">Get Recommendations</button>
+</form>
+</body>
+</html>
+
+
