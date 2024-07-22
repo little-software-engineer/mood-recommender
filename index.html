@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+    <title>Mood Recommender</title>
+</head>
+<body>
+<h2>Enter your mood:</h2>
+<form action="/recommendations" method="get">
+    <label for="mood">Mood:</label>
+    <input type="text" id="mood" name="mood" required>
+    <button type="submit">Get Recommendations</button>
+
+    <br><p>Made by little-software-engineer</p>
+    <a href="https://github.com/little-software-engineer">My GitHub link</a>
+</form>
+</body>
+</html>
+
+
+
