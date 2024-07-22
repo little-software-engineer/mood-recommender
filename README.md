@@ -31,6 +31,6 @@ As a lover of movies, music, and K-dramas, I wanted to create a fun project that
 Contributions are welcome! Feel free to fork this repository and submit a pull request with any improvements or additional features you'd like to add.
 
 ## **Credits**
-This project was created by [little-software-engineer]. 
+This project was created by [little-software-engineer](https://github.com/little-software-engineer).
 
 
