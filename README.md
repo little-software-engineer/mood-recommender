@@ -15,11 +15,12 @@ As a lover of movies, music, and K-dramas, I wanted to create a fun project that
 - HTML
 - JSON
 - Java
+- -MySQL
 
 ## **Installation**
 1. Clone this repository to your local machine.
 2. Ensure you have Java and Spring installed.
-3. Run the application.
+3. Run the application with MySQL server running in the background.
 
 ## **Usage**
 1. Open the application in your web browser.
