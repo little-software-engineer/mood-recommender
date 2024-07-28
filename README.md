@@ -15,7 +15,7 @@ As a lover of movies, music, and K-dramas, I wanted to create a fun project that
 - HTML
 - JSON
 - Java
-- -MySQL
+- MySQL
 
 ## **Installation**
 1. Clone this repository to your local machine.
