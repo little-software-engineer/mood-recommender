@@ -23,32 +23,20 @@ public class HomeController {
 
     @GetMapping("/recommendations")
     public String getRecommendations(@RequestParam String mood, Model model) {
-        String sql = "SELECT type, name FROM recommendation WHERE category = ?";
-        List<Recommendation> recommendations = jdbcTemplate.query(
-                sql,
-                new Object[]{mood},
-                (rs, rowNum) -> new Recommendation(rs.getString("type"), rs.getString("name"))
-        );
+        // SQL queries for each category, selecting a random recommendation
+        String movieSql = "SELECT name FROM recommendation WHERE category = ? AND type = 'movie' ORDER BY RAND() LIMIT 1";
+        String songSql = "SELECT name FROM recommendation WHERE category = ? AND type = 'song' ORDER BY RAND() LIMIT 1";
+        String kdramaSql = "SELECT name FROM recommendation WHERE category = ? AND type = 'kdrama' ORDER BY RAND() LIMIT 1";
 
-        // Initialize default recommendations in case there are no results in the database
-        String movie = "No recommendation";
-        String song = "No recommendation";
-        String kdrama = "No recommendation";
+        // Query the database for random results based on the mood
+        String movie = jdbcTemplate.queryForObject(movieSql, new Object[]{mood}, String.class);
+        String song = jdbcTemplate.queryForObject(songSql, new Object[]{mood}, String.class);
+        String kdrama = jdbcTemplate.queryForObject(kdramaSql, new Object[]{mood}, String.class);
 
-        // Iterate over the results and assign them based on type
-        for (Recommendation rec : recommendations) {
-            switch (rec.getType()) {
-                case "movie":
-                    movie = rec.getName();
-                    break;
-                case "song":
-                    song = rec.getName();
-                    break;
-                case "kdrama":
-                    kdrama = rec.getName();
-                    break;
-            }
-        }
+        // If no results found, set default values
+        if (movie == null) movie = "No movie recommendation";
+        if (song == null) song = "No song recommendation";
+        if (kdrama == null) kdrama = "No kdrama recommendation";
 
         model.addAttribute("recommendation", new RecommendationResponse(movie, song, kdrama));
         return "result"; // Return the name of the Thymeleaf template for displaying recommendations
