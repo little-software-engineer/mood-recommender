@@ -3,7 +3,7 @@
 Welcome to the **Mood Recommender App**! This Spring project utilizes HTML, MySQL, and Java to recommend you a movie, a song, and a K-drama based on your mood input. The app takes into account four mood options: **Happy**, **Sad**, **Calm**, and **Excited**. Please note that the mood input is case sensitive.
 
 ## **Motivation**
-As a lover of movies, music, and K-dramas, I wanted to create a fun project that combines my passion with my interest in learning different frameworks. Thus, the **Mood Recommender App** was born!
+As a lover of movies, music, and K-dramas, I wanted to create a fun project that combines my passion with my interest in learning different frameworks. Thus, the **Mood Recommender App** was born! Later on, this project was used as my university thesis project.
 
 ## **How it Works**
 1. Start by submitting your current mood.
